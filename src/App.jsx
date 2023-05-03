@@ -36,7 +36,7 @@ export function App() {
           className="mb-2 d-flex flex-row px-5 py-2 "
           style={{ border: "1px solid lightgrey", borderRadius: "5px" }}
         >
-          <h4>Expenses</h4>
+          <h4 className="pt-1">Expenses</h4>
           <div className="d-flex flex-row ms-auto">
             <Button variant="light" onClick={handleShow} className="me-3">
               <GrAdd />
